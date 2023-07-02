@@ -121,7 +121,7 @@ class MyProfile extends Component {
         <ul className="posts-view-container">
           {myProfileData.posts.map(post => (
             <li className="post-image-list-item" key={post.id}>
-              <img src={post.image} alt="user post" className="post-image" />
+              <img src={post.image} alt="my post" className="post-image" />
             </li>
           ))}
         </ul>
